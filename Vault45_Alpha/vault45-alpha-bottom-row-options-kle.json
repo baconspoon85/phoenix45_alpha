@@ -1,0 +1,71 @@
+[
+  {
+    "name": "Vault45 Alpha - Bottom Row Options",
+    "author": "baconspoon",
+    "notes": "Limited bottom row to avoid interference with mounting posts"
+  },
+  [
+    {
+      "a": 7
+    },
+    "",
+    {
+      "w": 1.25
+    },
+    "",
+    {
+      "w": 1.25
+    },
+    "",
+    {
+      "w": 1.75
+    },
+    "",
+    {
+      "w": 1.75
+    },
+    "",
+    {
+      "w": 1.25
+    },
+    "",
+    {
+      "w": 1.25
+    },
+    "",
+    ""
+  ],
+  [
+    {
+      "y": 0.25,
+      "g": true,
+      "a": 4
+    },
+    "Ctrl",
+    {
+      "w": 1.25
+    },
+    "Win",
+    {
+      "g": false,
+      "a": 7
+    },
+    "",
+    {
+      "w": 2
+    },
+    "",
+    {
+      "w": 2
+    },
+    "",
+    "",
+    {
+      "g": true,
+      "a": 4,
+      "w": 1.25
+    },
+    "Win",
+    "Ctrl"
+  ]
+]

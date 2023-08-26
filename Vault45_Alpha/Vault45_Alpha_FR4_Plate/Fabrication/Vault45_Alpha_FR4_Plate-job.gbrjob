@@ -5,17 +5,17 @@
       "Application": "Pcbnew",
       "Version": "7.0.6"
     },
-    "CreationDate": "2023-08-26T01:37:11-04:00"
+    "CreationDate": "2023-08-26T10:14:01-04:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
-      "Name": "Vault45_alpha",
-      "GUID": "5661756c-7434-4355-9f61-6c7068612e6b",
+      "Name": "Vault45_Alpha_FR4_Plate",
+      "GUID": "5661756c-7434-4355-9f41-6c7068615f46",
       "Revision": "rev?"
     },
     "Size": {
-      "X": 247.7506,
-      "Y": 76.3004
+      "X": 247.74,
+      "Y": 76.29
     },
     "LayerNumber": 2,
     "BoardThickness": 1.6,
@@ -24,57 +24,56 @@
   "DesignRules": [
     {
       "Layers": "Outer",
-      "PadToPad": 0.1524,
-      "PadToTrack": 0.1524,
-      "TrackToTrack": 0.1524,
-      "MinLineWidth": 0.2,
-      "TrackToRegion": 0.1524,
-      "RegionToRegion": 0.1524
+      "PadToPad": 0.2,
+      "PadToTrack": 0.2,
+      "TrackToTrack": 0.2,
+      "TrackToRegion": 2.0,
+      "RegionToRegion": 2.0
     }
   ],
   "FilesAttributes": [
     {
-      "Path": "Vault45_alpha-F_Cu.gtl",
+      "Path": "Vault45_Alpha_FR4_Plate-F_Cu.gtl",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Vault45_alpha-B_Cu.gbl",
+      "Path": "Vault45_Alpha_FR4_Plate-B_Cu.gbl",
       "FileFunction": "Copper,L2,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Vault45_alpha-F_Paste.gtp",
+      "Path": "Vault45_Alpha_FR4_Plate-F_Paste.gtp",
       "FileFunction": "SolderPaste,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Vault45_alpha-B_Paste.gbp",
+      "Path": "Vault45_Alpha_FR4_Plate-B_Paste.gbp",
       "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Vault45_alpha-F_Silkscreen.gto",
+      "Path": "Vault45_Alpha_FR4_Plate-F_Silkscreen.gto",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Vault45_alpha-B_Silkscreen.gbo",
+      "Path": "Vault45_Alpha_FR4_Plate-B_Silkscreen.gbo",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Vault45_alpha-F_Mask.gts",
+      "Path": "Vault45_Alpha_FR4_Plate-F_Mask.gts",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "Vault45_alpha-B_Mask.gbs",
+      "Path": "Vault45_Alpha_FR4_Plate-B_Mask.gbs",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "Vault45_alpha-Edge_Cuts.gm1",
+      "Path": "Vault45_Alpha_FR4_Plate-Edge_Cuts.gm1",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }
@@ -90,29 +89,24 @@
     },
     {
       "Type": "SolderMask",
-      "Thickness": 0.01,
       "Name": "Top Solder Mask"
     },
     {
       "Type": "Copper",
-      "Thickness": 0.035,
       "Name": "F.Cu"
     },
     {
       "Type": "Dielectric",
-      "Thickness": 1.51,
       "Material": "FR4",
       "Name": "F.Cu/B.Cu",
       "Notes": "Type: dielectric layer 1 (from F.Cu to B.Cu)"
     },
     {
       "Type": "Copper",
-      "Thickness": 0.035,
       "Name": "B.Cu"
     },
     {
       "Type": "SolderMask",
-      "Thickness": 0.01,
       "Name": "Bottom Solder Mask"
     },
     {

@@ -1,0 +1,121 @@
+{
+  "Header": {
+    "GenerationSoftware": {
+      "Vendor": "KiCad",
+      "Application": "Pcbnew",
+      "Version": "7.0.6"
+    },
+    "CreationDate": "2023-09-07T16:15:18-04:00"
+  },
+  "GeneralSpecs": {
+    "ProjectId": {
+      "Name": "Vault45_Alpha_FR4_Plate_Switch_Blocker_Cutouts",
+      "GUID": "5661756c-7434-4355-9f41-6c7068615f46",
+      "Revision": "rev?"
+    },
+    "Size": {
+      "X": 247.74,
+      "Y": 76.29
+    },
+    "LayerNumber": 2,
+    "BoardThickness": 1.6,
+    "Finish": "None"
+  },
+  "DesignRules": [
+    {
+      "Layers": "Outer",
+      "PadToPad": 0.2,
+      "PadToTrack": 0.2,
+      "TrackToTrack": 0.2,
+      "TrackToRegion": 2.0,
+      "RegionToRegion": 2.0
+    }
+  ],
+  "FilesAttributes": [
+    {
+      "Path": "Vault45_Alpha_FR4_Plate_Switch_Blocker_Cutouts-F_Cu.gtl",
+      "FileFunction": "Copper,L1,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Vault45_Alpha_FR4_Plate_Switch_Blocker_Cutouts-B_Cu.gbl",
+      "FileFunction": "Copper,L2,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Vault45_Alpha_FR4_Plate_Switch_Blocker_Cutouts-F_Paste.gtp",
+      "FileFunction": "SolderPaste,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Vault45_Alpha_FR4_Plate_Switch_Blocker_Cutouts-B_Paste.gbp",
+      "FileFunction": "SolderPaste,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Vault45_Alpha_FR4_Plate_Switch_Blocker_Cutouts-F_Silkscreen.gto",
+      "FileFunction": "Legend,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Vault45_Alpha_FR4_Plate_Switch_Blocker_Cutouts-B_Silkscreen.gbo",
+      "FileFunction": "Legend,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Vault45_Alpha_FR4_Plate_Switch_Blocker_Cutouts-F_Mask.gts",
+      "FileFunction": "SolderMask,Top",
+      "FilePolarity": "Negative"
+    },
+    {
+      "Path": "Vault45_Alpha_FR4_Plate_Switch_Blocker_Cutouts-B_Mask.gbs",
+      "FileFunction": "SolderMask,Bot",
+      "FilePolarity": "Negative"
+    },
+    {
+      "Path": "Vault45_Alpha_FR4_Plate_Switch_Blocker_Cutouts-Edge_Cuts.gm1",
+      "FileFunction": "Profile",
+      "FilePolarity": "Positive"
+    }
+  ],
+  "MaterialStackup": [
+    {
+      "Type": "Legend",
+      "Name": "Top Silk Screen"
+    },
+    {
+      "Type": "SolderPaste",
+      "Name": "Top Solder Paste"
+    },
+    {
+      "Type": "SolderMask",
+      "Name": "Top Solder Mask"
+    },
+    {
+      "Type": "Copper",
+      "Name": "F.Cu"
+    },
+    {
+      "Type": "Dielectric",
+      "Material": "FR4",
+      "Name": "F.Cu/B.Cu",
+      "Notes": "Type: dielectric layer 1 (from F.Cu to B.Cu)"
+    },
+    {
+      "Type": "Copper",
+      "Name": "B.Cu"
+    },
+    {
+      "Type": "SolderMask",
+      "Name": "Bottom Solder Mask"
+    },
+    {
+      "Type": "SolderPaste",
+      "Name": "Bottom Solder Paste"
+    },
+    {
+      "Type": "Legend",
+      "Name": "Bottom Silk Screen"
+    }
+  ]
+}
